@@ -1,0 +1,88 @@
+:root {
+    --color-white: #fff;
+    --color-font: #464646;
+    --color-gray: #f5f5f5;
+    --color-blue: #2A7AE4;
+}
+
+.new-product-container form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    padding: 60px
+}
+
+.new-product-container h2 {
+    color: var(--color-font);
+    font-size: 32px;
+    font-weight: 600;
+    align-self: left;
+}
+
+.new-product-container input {
+    width: 559px;
+    height: 60px;
+    border-radius: 4px;
+    border: none;
+    border-bottom: 1px solid #D1D5DB;
+    outline: none;
+    font-size: 16px;
+    padding: 0 16px;
+}
+
+.new-product-container textarea {
+    width: 559px;
+    height: 120px;
+    border-radius: 4px;
+    border: none;
+    border-bottom: 1px solid #D1D5DB;
+    outline: none;
+    font-size: 16px;
+    padding: 16px;
+}
+
+.new-product-container button {
+    width: 589px;
+    height: 60px;
+    border-radius: 4px;
+    border: none;
+    border-bottom: 1px solid #D1D5DB;
+    outline: none;
+    font-size: 16px;
+    padding: 0 16px;
+    background-color: var(--color-blue);
+    color: var(--color-white);
+}
+
+/* Media Queries */
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .new-product-container input {
+        width: 100%;
+    }
+
+    .new-product-container textarea {
+        width: 100%;
+    }
+
+    .new-product-container button {
+        width: 103%;
+    }
+}
+
+
+@media screen and (min-width: 360px) and (max-width: 768px) {
+    .new-product-container input {
+        width: 100%;
+    }
+
+    .new-product-container textarea {
+        width: 100%;
+    }
+
+    .new-product-container button {
+        width: 103%;
+    }
+}
